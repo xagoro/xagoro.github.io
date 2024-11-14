@@ -1,0 +1,106 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MS Gothic', 'Verdana', sans-serif;
+    background-color: #f5f5dc; /* A light beige, often used for a vintage look */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url('images/bg.jpg'); /* Subtle tatami mat texture */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffe0; /* Light cream */
+    border: 2px solid #d3a15d;
+}
+
+header h1 {
+    font-size: 1.8em;
+    color: #a52a2a;
+    border-bottom: 2px solid #d3a15d;
+    padding-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 8px;
+    color: #6b4226;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffe0;
+    padding: 15px;
+    border: 1px solid #d3a15d;
+    width: 100%;
+}
+
+input, textarea {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #b0a290;
+    background-color: #fdf5e6;
+}
+
+button {
+    padding: 8px;
+    background-color: #d3a15d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    align-self: flex-end;
+}
+
+button:hover {
+    background-color: #a26d45;
+}
+
+#journalEntries {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.entry {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #d3a15d;
+    background-color: #ffffe0;
+    font-size: 14px;
+}
+
+.entry img {
+    max-width: 100%;
+    border: 1px solid #b0a290;
+    margin-bottom: 10px;
+}
+
+.entry p {
+    color: #6b4226;
+    font-style: italic;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    border-left: 3px solid #d3a15d; /* Left vertical border */
+    border-right: 3px solid #d3a15d; /* Right vertical border */
+    background-color: #ffffe0;
+    min-height: 100vh;
+}
